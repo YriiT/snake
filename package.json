@@ -1,0 +1,11 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "simple snake game",
+  "main": "script.js",
+  "scripts": {
+    "start": "browser-sync start --server --files'*' --watch"
+  },
+  "author": "tarasevichyrii@gmail.com",
+  "license": "ISC"
+}
