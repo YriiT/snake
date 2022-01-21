@@ -26,8 +26,8 @@ html, body {
 }
 
 .pixel {
-    width: 2vh;
-    height: 2vh;
+    width: calc(80vh/40);
+    height: calc(80vh/40);
 }
 
 .snake_body{
@@ -36,4 +36,15 @@ html, body {
 }
 .food{
     background-color: red;
+}
+
+@media screen and (orientation: portrait){
+    .container{
+        width: 80vw;
+        height: 80vw;
+    }
+    .pixel {
+        width: calc(80vw/40);
+        height: calc(80vw/40);
+    }
 }
